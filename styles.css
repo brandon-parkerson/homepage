@@ -95,7 +95,7 @@ h1 {
 .card-icons {
   display: flex;
   justify-content: flex-end;
-  gap: 5px;
+  gap: 8px;
 }
 
 img {
@@ -121,9 +121,9 @@ img {
 }
 
 .card {
-  border: solid black 1px;
-  height: 100%;
+  height: 109%;
   width: 100%;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.74);
 }
 
 footer {
@@ -171,4 +171,64 @@ span {
 .email {
   display: flex;
   gap: 1em;
+}
+
+.screenshot {
+  height: 65%;
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 30px;
+}
+
+.card-1-screenshot {
+  background-color: rgb(134, 24, 24);
+}
+
+.card-2-screenshot {
+  background-color: rgb(29, 143, 29);
+}
+
+.card-3-screenshot {
+  background-color: indigo;
+}
+
+.card-4-screenshot {
+  background-color: rgb(197, 118, 131);
+}
+
+.card-5-screenshot {
+  background-color: rgb(158, 104, 2);
+}
+
+.card-6-screenshot {
+  background-color: lightblue;
+}
+
+.card-details {
+  width: 100%;
+  display: flex;
+  font-family: "Roboto";
+  flex-direction: column;
+  padding: 3%;
+}
+
+.github-icon {
+  height: auto;
+  width: 25px;
+}
+
+.link-icon {
+  height: auto;
+  min-width: 35px;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-description {
+  color: rgb(73, 73, 73);
+  font-size: 20px;
 }
