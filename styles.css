@@ -21,6 +21,7 @@
 
 html {
   height: 100vh;
+  background-color: rgb(243, 243, 243);
 }
 
 h1 {
@@ -106,4 +107,43 @@ img {
 
 .my-work {
   font-size: 60px;
+  margin-left: 9%;
+}
+
+.catalog-wrapper {
+  height: 90vh;
+  width: 75vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 9%;
+  gap: 1em;
+  row-gap: 3em;
+  margin-bottom: 10em;
+}
+
+.card {
+  border: solid black 1px;
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  background-color: #0d7bc0;
+  height: fit-content;
+  color: rgb(236, 235, 235);
+}
+
+p {
+  font-family: "Roboto";
+}
+
+svg {
+  height: auto;
+  width: 25px;
+  display: inline;
+}
+
+span {
+  font-family: "Roboto";
 }
