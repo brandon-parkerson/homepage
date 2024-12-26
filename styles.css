@@ -144,6 +144,38 @@ svg {
   height: auto;
   width: 25px;
   display: inline;
+  will-change: transform;
+  transition: transform 450ms;
+}
+
+svg:hover {
+  cursor: pointer;
+  transition: transform 150ms;
+  transform: translateY(-10px);
+}
+
+.x-icon {
+  will-change: transform;
+  transition: transform 450ms;
+}
+
+.x-icon:hover {
+  cursor: pointer;
+  transition: transform 150ms;
+  transform: translateY(-10px);
+}
+
+.github-icon,
+.linkedin-icon {
+  will-change: transform;
+  transition: transform 450ms;
+}
+
+.github-icon:hover,
+.linkedin-icon:hover {
+  cursor: pointer;
+  transition: transform 150ms;
+  transform: translateY(-10px);
 }
 
 span {
