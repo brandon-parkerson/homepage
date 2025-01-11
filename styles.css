@@ -264,3 +264,14 @@ span {
   color: rgb(73, 73, 73);
   font-size: 20px;
 }
+
+@media (max-width: 800px) {
+  .catalog-wrapper {
+    margin: auto;
+    width: 90vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .42fr .42fr;
+    gap: 5%;
+  }
+  
+}
