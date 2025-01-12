@@ -335,3 +335,9 @@ span {
     margin-top: 330vh;
   }
 }
+
+@media (max-width: 852px) {
+  footer {
+    margin-top: 410vh;
+  }
+}
